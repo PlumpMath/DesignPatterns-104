@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace JoseNavaCom.DesignPatterns.Libraries.Behavioral.AbstractFactory.Chassis
 {
-    interface IChassis
+    public interface IChassis
     {
+        string ChassisParts { get; }
     }
 }
