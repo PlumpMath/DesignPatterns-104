@@ -39,10 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\AbstractFactory\Body\IBody.cs" />
+    <Compile Include="Behavioral\AbstractFactory\Chassis\IChassis.cs" />
+    <Compile Include="Behavioral\AbstractFactory\Glassware\IGlassware.cs" />
+    <Compile Include="Behavioral\AbstractFactory\Vehicle.cs" />
+    <Compile Include="Behavioral\AbstractFactory\VehicleFactory\AbstractVehicleFactory.cs" />
+    <Compile Include="Behavioral\AbstractFactory\VehicleType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Behavioral\" />
     <Folder Include="Creational\" />
     <Folder Include="Structural\" />
   </ItemGroup>

@@ -1,0 +1,5 @@
+C:\Users\josenavacom\Documents\GitHub\DesignPatterns\JoseNavaCom.DesignPatterns\JoseNavaCom.DesignPatterns.Libraries\bin\Debug\JoseNavaCom.DesignPatterns.Libraries.dll
+C:\Users\josenavacom\Documents\GitHub\DesignPatterns\JoseNavaCom.DesignPatterns\JoseNavaCom.DesignPatterns.Libraries\bin\Debug\JoseNavaCom.DesignPatterns.Libraries.pdb
+C:\Users\josenavacom\Documents\GitHub\DesignPatterns\JoseNavaCom.DesignPatterns\JoseNavaCom.DesignPatterns.Libraries\obj\Debug\JoseNavaCom.DesignPatterns.Libraries.csprojResolveAssemblyReference.cache
+C:\Users\josenavacom\Documents\GitHub\DesignPatterns\JoseNavaCom.DesignPatterns\JoseNavaCom.DesignPatterns.Libraries\obj\Debug\JoseNavaCom.DesignPatterns.Libraries.dll
+C:\Users\josenavacom\Documents\GitHub\DesignPatterns\JoseNavaCom.DesignPatterns\JoseNavaCom.DesignPatterns.Libraries\obj\Debug\JoseNavaCom.DesignPatterns.Libraries.pdb
