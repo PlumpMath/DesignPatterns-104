@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>bed6c6c4-c5e8-4b29-ac1e-8a83689492e8</ProjectGuid>
+    <ProjectGuid>{E113AC79-2FA3-4A41-AB24-A343FBEF47BC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>JoseNavaCom.DesignPatterns.Tests.Unit</RootNamespace>
