@@ -53,11 +53,14 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Behavioral\AbstractFactory\VehicleTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Behavioral\" />
+    <ProjectReference Include="..\JoseNavaCom.DesignPatterns.Libraries\JoseNavaCom.DesignPatterns.Libraries.csproj">
+      <Project>{c8d0deb6-82b5-41f2-9dfc-2d1bf8c689d8}</Project>
+      <Name>JoseNavaCom.DesignPatterns.Libraries</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
