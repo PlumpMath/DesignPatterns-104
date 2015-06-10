@@ -3,3 +3,7 @@ C:\Users\josenavacom\Documents\GitHub\DesignPatterns\JoseNavaCom.DesignPatterns\
 C:\Users\josenavacom\Documents\GitHub\DesignPatterns\JoseNavaCom.DesignPatterns\JoseNavaCom.DesignPatterns.Tests.Unit\obj\Debug\JoseNavaCom.DesignPatterns.Libraries.Tests.Unit.csprojResolveAssemblyReference.cache
 C:\Users\josenavacom\Documents\GitHub\DesignPatterns\JoseNavaCom.DesignPatterns\JoseNavaCom.DesignPatterns.Tests.Unit\obj\Debug\JoseNavaCom.DesignPatterns.Tests.Unit.dll
 C:\Users\josenavacom\Documents\GitHub\DesignPatterns\JoseNavaCom.DesignPatterns\JoseNavaCom.DesignPatterns.Tests.Unit\obj\Debug\JoseNavaCom.DesignPatterns.Tests.Unit.pdb
+C:\Users\josenavacom\Documents\GitHub\DesignPatterns\JoseNavaCom.DesignPatterns\JoseNavaCom.DesignPatterns.Tests.Unit\bin\Debug\JoseNavaCom.DesignPatterns.Libraries.dll
+C:\Users\josenavacom\Documents\GitHub\DesignPatterns\JoseNavaCom.DesignPatterns\JoseNavaCom.DesignPatterns.Tests.Unit\bin\Debug\Moq.dll
+C:\Users\josenavacom\Documents\GitHub\DesignPatterns\JoseNavaCom.DesignPatterns\JoseNavaCom.DesignPatterns.Tests.Unit\bin\Debug\JoseNavaCom.DesignPatterns.Libraries.pdb
+C:\Users\josenavacom\Documents\GitHub\DesignPatterns\JoseNavaCom.DesignPatterns\JoseNavaCom.DesignPatterns.Tests.Unit\bin\Debug\Moq.xml
