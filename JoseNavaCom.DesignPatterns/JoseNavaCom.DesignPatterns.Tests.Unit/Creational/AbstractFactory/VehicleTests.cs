@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using JoseNavaCom.DesignPatterns.Libraries.Behavioral.AbstractFactory;
-using JoseNavaCom.DesignPatterns.Libraries.Behavioral.AbstractFactory.VehicleFactory;
-using JoseNavaCom.DesignPatterns.Libraries.Behavioral.AbstractFactory.Chassis;
+using JoseNavaCom.DesignPatterns.Libraries.Creational.AbstractFactory;
+using JoseNavaCom.DesignPatterns.Libraries.Creational.AbstractFactory.VehicleFactory;
+using JoseNavaCom.DesignPatterns.Libraries.Creational.AbstractFactory.Chassis;
 
-namespace JoseNavaCom.DesignPatterns.Tests.Unit.Behavioral.AbstractFactory
+namespace JoseNavaCom.DesignPatterns.Tests.Unit.Creational.AbstractFactory
 {
     [TestClass]
     public class VehicleTests

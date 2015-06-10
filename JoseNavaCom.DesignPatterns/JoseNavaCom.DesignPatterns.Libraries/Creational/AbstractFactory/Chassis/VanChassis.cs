@@ -1,4 +1,4 @@
-﻿namespace JoseNavaCom.DesignPatterns.Libraries.Behavioral.AbstractFactory.Chassis
+﻿namespace JoseNavaCom.DesignPatterns.Libraries.Creational.AbstractFactory.Chassis
 {
     public class VanChassis : IChassis
     {

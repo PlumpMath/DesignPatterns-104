@@ -1,7 +1,7 @@
-﻿using JoseNavaCom.DesignPatterns.Libraries.Behavioral.AbstractFactory.VehicleFactory;
+﻿using JoseNavaCom.DesignPatterns.Libraries.Creational.AbstractFactory.VehicleFactory;
 using System;
 
-namespace JoseNavaCom.DesignPatterns.Libraries.Behavioral.AbstractFactory
+namespace JoseNavaCom.DesignPatterns.Libraries.Creational.AbstractFactory
 {
     public class Vehicle
     {

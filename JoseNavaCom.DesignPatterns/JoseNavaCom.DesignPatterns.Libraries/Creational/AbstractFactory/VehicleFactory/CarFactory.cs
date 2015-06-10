@@ -1,9 +1,9 @@
-﻿using JoseNavaCom.DesignPatterns.Libraries.Behavioral.AbstractFactory.Body;
-using JoseNavaCom.DesignPatterns.Libraries.Behavioral.AbstractFactory.Chassis;
-using JoseNavaCom.DesignPatterns.Libraries.Behavioral.AbstractFactory.Glassware;
+﻿using JoseNavaCom.DesignPatterns.Libraries.Creational.AbstractFactory.Body;
+using JoseNavaCom.DesignPatterns.Libraries.Creational.AbstractFactory.Chassis;
+using JoseNavaCom.DesignPatterns.Libraries.Creational.AbstractFactory.Glassware;
 using System;
 
-namespace JoseNavaCom.DesignPatterns.Libraries.Behavioral.AbstractFactory.VehicleFactory
+namespace JoseNavaCom.DesignPatterns.Libraries.Creational.AbstractFactory.VehicleFactory
 {
     public class CarFactory : AbstractVehicleFactory
     {

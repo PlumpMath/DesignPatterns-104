@@ -1,4 +1,4 @@
-﻿namespace JoseNavaCom.DesignPatterns.Libraries.Behavioral.AbstractFactory.Body
+﻿namespace JoseNavaCom.DesignPatterns.Libraries.Creational.AbstractFactory.Body
 {
     public class VanBody : IBody
     {

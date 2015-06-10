@@ -39,24 +39,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Behavioral\AbstractFactory\Body\CarBody.cs" />
-    <Compile Include="Behavioral\AbstractFactory\Body\IBody.cs" />
-    <Compile Include="Behavioral\AbstractFactory\Body\VanBody.cs" />
-    <Compile Include="Behavioral\AbstractFactory\Chassis\CarChassis.cs" />
-    <Compile Include="Behavioral\AbstractFactory\Chassis\IChassis.cs" />
-    <Compile Include="Behavioral\AbstractFactory\Chassis\VanChassis.cs" />
-    <Compile Include="Behavioral\AbstractFactory\Glassware\CarGlassware.cs" />
-    <Compile Include="Behavioral\AbstractFactory\Glassware\IGlassware.cs" />
-    <Compile Include="Behavioral\AbstractFactory\Glassware\VanGlassware.cs" />
-    <Compile Include="Behavioral\AbstractFactory\Vehicle.cs" />
-    <Compile Include="Behavioral\AbstractFactory\VehicleFactory\AbstractVehicleFactory.cs" />
-    <Compile Include="Behavioral\AbstractFactory\VehicleFactory\CarFactory.cs" />
-    <Compile Include="Behavioral\AbstractFactory\VehicleFactory\VanFactory.cs" />
-    <Compile Include="Behavioral\AbstractFactory\VehicleType.cs" />
+    <Compile Include="Creational\AbstractFactory\Body\CarBody.cs" />
+    <Compile Include="Creational\AbstractFactory\Body\IBody.cs" />
+    <Compile Include="Creational\AbstractFactory\Body\VanBody.cs" />
+    <Compile Include="Creational\AbstractFactory\Chassis\CarChassis.cs" />
+    <Compile Include="Creational\AbstractFactory\Chassis\IChassis.cs" />
+    <Compile Include="Creational\AbstractFactory\Chassis\VanChassis.cs" />
+    <Compile Include="Creational\AbstractFactory\Glassware\CarGlassware.cs" />
+    <Compile Include="Creational\AbstractFactory\Glassware\IGlassware.cs" />
+    <Compile Include="Creational\AbstractFactory\Glassware\VanGlassware.cs" />
+    <Compile Include="Creational\AbstractFactory\Vehicle.cs" />
+    <Compile Include="Creational\AbstractFactory\VehicleFactory\AbstractVehicleFactory.cs" />
+    <Compile Include="Creational\AbstractFactory\VehicleFactory\CarFactory.cs" />
+    <Compile Include="Creational\AbstractFactory\VehicleFactory\VanFactory.cs" />
+    <Compile Include="Creational\AbstractFactory\VehicleType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Creational\" />
+    <Folder Include="Behavioral\" />
     <Folder Include="Structural\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

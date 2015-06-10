@@ -1,4 +1,4 @@
-﻿namespace JoseNavaCom.DesignPatterns.Libraries.Behavioral.AbstractFactory.Glassware
+﻿namespace JoseNavaCom.DesignPatterns.Libraries.Creational.AbstractFactory.Glassware
 {
     public class CarGlassware : IGlassware
     {
