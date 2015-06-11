@@ -24,7 +24,7 @@ namespace JoseNavaCom.DesignPatterns.Tests.Unit.Creational.AbstractFactory
             Vehicle vehicle = new Vehicle();
             AbstractVehicleFactory vehicleFactory = vehicle.Get(VehicleType.Car);
             IChassis vehicleChassis = vehicleFactory.CreateChassis();
-            Assert.AreEqual(vehicleChassis.ChassisParts, "Chassis parts for a car");
+            Assert.AreEqual<string>(vehicleChassis.ChassisParts, "Chassis parts for a car");
         }
     }
 }
