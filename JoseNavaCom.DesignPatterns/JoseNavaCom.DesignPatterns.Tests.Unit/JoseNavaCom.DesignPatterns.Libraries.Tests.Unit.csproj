@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Creational\AbstractFactory\VehicleTests.cs" />
     <Compile Include="Creational\Builder\VehicleCreatorTests.cs" />
+    <Compile Include="Creational\FactoryMethod\VehicleFactoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
