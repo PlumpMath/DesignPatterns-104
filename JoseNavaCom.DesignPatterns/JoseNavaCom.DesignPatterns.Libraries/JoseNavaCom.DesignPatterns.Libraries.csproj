@@ -58,6 +58,11 @@
     <Compile Include="Creational\Builder\VehicleBuilder\IVehicleBuilder.cs" />
     <Compile Include="Creational\Builder\VehicleBuilder\SentraBuilder.cs" />
     <Compile Include="Creational\Builder\VehicleCreator.cs" />
+    <Compile Include="Creational\FactoryMethod\VehicleFactory.cs" />
+    <Compile Include="Creational\FactoryMethod\VehicleType.cs" />
+    <Compile Include="Creational\FactoryMethod\Vehicle\CamaroVehicle.cs" />
+    <Compile Include="Creational\FactoryMethod\Vehicle\IVehicle.cs" />
+    <Compile Include="Creational\FactoryMethod\Vehicle\SentraVehicle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
