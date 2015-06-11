@@ -53,6 +53,11 @@
     <Compile Include="Creational\AbstractFactory\VehicleFactory\CarFactory.cs" />
     <Compile Include="Creational\AbstractFactory\VehicleFactory\VanFactory.cs" />
     <Compile Include="Creational\AbstractFactory\VehicleType.cs" />
+    <Compile Include="Creational\Builder\Vehicle.cs" />
+    <Compile Include="Creational\Builder\VehicleBuilder\CamaroBuilder.cs" />
+    <Compile Include="Creational\Builder\VehicleBuilder\IVehicleBuilder.cs" />
+    <Compile Include="Creational\Builder\VehicleBuilder\SentraBuilder.cs" />
+    <Compile Include="Creational\Builder\VehicleCreator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
