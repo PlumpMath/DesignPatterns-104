@@ -6,7 +6,9 @@ Design patterns are solutions to software design problems you find again and aga
 * **Builder**	- Separates object construction from its representation
 * **Factory Method** - Creates an instance of several derived classes
 * **Prototype** - A fully initialized instance to be copied or cloned
-* * Test
+ * ICloneable - Using the built in ICloneable Interface
+ * Shallow Copy - Will copy all non-static properties but it will not copy references to other objects
+ * Deep Copy - Will copy all non-static properties and references to other objects
 * **Singleton** - A class of which only a single instance can exist
 
 ## Structural Patterns
