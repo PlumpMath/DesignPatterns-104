@@ -70,13 +70,13 @@
     <Compile Include="Creational\Prototype\Cloneable\User.cs" />
     <Compile Include="Creational\Prototype\Shallow\User.cs" />
     <Compile Include="Creational\Prototype\Shallow\UserPrototype.cs" />
+    <Compile Include="Creational\Singleton\NonThreadSafe\Singleton.cs" />
+    <Compile Include="Creational\Singleton\ThreadSafe\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral\" />
     <Folder Include="Creational\Singleton\DoubleCheckLock\" />
-    <Folder Include="Creational\Singleton\NonThreadSafe\" />
-    <Folder Include="Creational\Singleton\ThreadSafe\" />
     <Folder Include="Structural\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
