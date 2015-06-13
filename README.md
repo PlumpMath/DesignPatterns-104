@@ -14,7 +14,7 @@ Design patterns are solutions to software design problems you find again and aga
  *  **Thread Safe** - Instance is set to **volatile** and a **lock** is used
  *  **Double-checked Locked** - Only **lock** if the instance is null
  *  **Lazy** - Using built in **Lazy** generic. Thread-safe and lazy loaded.
- *  **Nested Class** - Lazy loaded using nested class. And internal instance.
+ *  **Nested Class** - Lazy loaded using nested class, and internal instance.
 
 ## Structural Patterns
 * **Adapter**	- Match interfaces of different classes
