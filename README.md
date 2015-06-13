@@ -9,7 +9,7 @@ Design patterns are solutions to software design problems you find again and aga
  * **ICloneable** - Using the built in ICloneable Interface
  * **Shallow Copy** - Will copy all non-static properties but it will not copy references to other objects
  * **Deep Copy** - Will copy all non-static properties and references to other objects
-* **Singleton** - A class of which only a single instance can exist
+* **Singleton** - A class of which only a single instance can exist. Unlike Static classes, a Singleton can be passed around as paramater and can implement Interfaces
 
 ## Structural Patterns
 * **Adapter**	- Match interfaces of different classes
