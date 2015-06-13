@@ -63,10 +63,20 @@
     <Compile Include="Creational\FactoryMethod\Vehicle\CamaroVehicle.cs" />
     <Compile Include="Creational\FactoryMethod\Vehicle\IVehicle.cs" />
     <Compile Include="Creational\FactoryMethod\Vehicle\SentraVehicle.cs" />
+    <Compile Include="Creational\Prototype\Deep\Role.cs" />
+    <Compile Include="Creational\Prototype\Deep\User.cs" />
+    <Compile Include="Creational\Prototype\Deep\UserPrototype.cs" />
+    <Compile Include="Creational\Prototype\Cloneable\Role.cs" />
+    <Compile Include="Creational\Prototype\Cloneable\User.cs" />
+    <Compile Include="Creational\Prototype\Shallow\User.cs" />
+    <Compile Include="Creational\Prototype\Shallow\UserPrototype.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral\" />
+    <Folder Include="Creational\Singleton\DoubleCheckLock\" />
+    <Folder Include="Creational\Singleton\NonThreadSafe\" />
+    <Folder Include="Creational\Singleton\ThreadSafe\" />
     <Folder Include="Structural\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
