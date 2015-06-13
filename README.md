@@ -10,6 +10,11 @@ Design patterns are solutions to software design problems you find again and aga
  * **Shallow Copy** - Will copy all non-static properties but it will not copy references to other objects
  * **Deep Copy** - Will copy all non-static properties and references to other objects
 * **Singleton** - A class of which only a single instance can exist. Unlike Static classes, a Singleton can be passed around as paramater and can implement Interfaces
+ *  **Non-Thread Safe** - Not recommended. Multiple Threads could be requesting GetInstance at the same time
+ *  **Thread Safe** - Instance is set to **volatile** and a **lock** is used
+ *  **Double-checked Locked** - Only **lock** if the instance is null
+ *  **Lazy** - Using built in **Lazy** generic. Thread-safe and lazy loaded.
+ *  **Nested Class** - Lazy loaded using nested class. And internal instance.
 
 ## Structural Patterns
 * **Adapter**	- Match interfaces of different classes
