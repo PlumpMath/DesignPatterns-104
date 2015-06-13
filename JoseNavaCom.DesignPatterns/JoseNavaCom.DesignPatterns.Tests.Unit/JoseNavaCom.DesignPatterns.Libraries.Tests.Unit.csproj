@@ -56,6 +56,9 @@
     <Compile Include="Creational\AbstractFactory\VehicleTests.cs" />
     <Compile Include="Creational\Builder\VehicleCreatorTests.cs" />
     <Compile Include="Creational\FactoryMethod\VehicleFactoryTests.cs" />
+    <Compile Include="Creational\Prototype\Cloneable\UserTests.cs" />
+    <Compile Include="Creational\Prototype\Deep\UserTests.cs" />
+    <Compile Include="Creational\Prototype\Shallow\UserTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
