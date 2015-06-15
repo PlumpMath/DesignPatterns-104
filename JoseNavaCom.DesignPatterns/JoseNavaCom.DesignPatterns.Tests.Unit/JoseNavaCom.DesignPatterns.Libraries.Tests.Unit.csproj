@@ -60,6 +60,7 @@
     <Compile Include="Creational\Prototype\Deep\UserTests.cs" />
     <Compile Include="Creational\Prototype\Shallow\UserTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\Adapter\ClientTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JoseNavaCom.DesignPatterns.Libraries\JoseNavaCom.DesignPatterns.Libraries.csproj">
