@@ -70,14 +70,19 @@
     <Compile Include="Creational\Prototype\Cloneable\User.cs" />
     <Compile Include="Creational\Prototype\Shallow\User.cs" />
     <Compile Include="Creational\Prototype\Shallow\UserPrototype.cs" />
+    <Compile Include="Creational\Singleton\DoubleCheckLock\Singleton.cs" />
+    <Compile Include="Creational\Singleton\Lazy\Singleton.cs" />
+    <Compile Include="Creational\Singleton\NestedClass\Singleton.cs" />
     <Compile Include="Creational\Singleton\NonThreadSafe\Singleton.cs" />
     <Compile Include="Creational\Singleton\ThreadSafe\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\Adapter\Adaptee.cs" />
+    <Compile Include="Structural\Adapter\Adapter.cs" />
+    <Compile Include="Structural\Adapter\Client.cs" />
+    <Compile Include="Structural\Adapter\ITarget.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral\" />
-    <Folder Include="Creational\Singleton\DoubleCheckLock\" />
-    <Folder Include="Structural\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
