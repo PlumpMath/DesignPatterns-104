@@ -4,7 +4,7 @@
     {
         public override string Send()
         {
-            return MessageSender.SendMessage("System = " + Subject, "Body = " + Body);
+            return MessageSender.SendMessage("System Subject : " + Subject, "System Body : " + Body);
         }
     }
 }

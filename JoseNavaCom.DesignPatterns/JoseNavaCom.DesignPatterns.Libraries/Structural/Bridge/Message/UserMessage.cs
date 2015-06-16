@@ -4,7 +4,7 @@
     {
         public override string Send()
         {
-            return MessageSender.SendMessage("User = " + Subject, "User = " + Body);
+            return MessageSender.SendMessage("User Subject : " + Subject, "User Body : " + Body);
         }
     }
 }
