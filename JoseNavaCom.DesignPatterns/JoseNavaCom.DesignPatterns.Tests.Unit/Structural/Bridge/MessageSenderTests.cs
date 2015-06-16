@@ -10,10 +10,12 @@ namespace JoseNavaCom.DesignPatterns.Tests.Unit.Structural.Bridge
         [TestMethod]
         public void Send_Returns_SystemMessage()
         {
+            string expected = "Email Sender (Subject = System Subject : Test Message - Body = System Body : Hi, This is a Test Message)";
+
             MessageSender messageSender = new MessageSender();
             Message senderMessage = messageSender.Send();
             string message = senderMessage.Send();
-            Assert.AreEqual<string>("Email Sender (Subject = System Subject : Test Message - Body = System Body : Hi, This is a Test Message)", message);
+            Assert.AreEqual<string>(expected, message);
         }
     }
 }
