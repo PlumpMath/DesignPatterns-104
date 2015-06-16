@@ -80,6 +80,13 @@
     <Compile Include="Structural\Adapter\Adapter.cs" />
     <Compile Include="Structural\Adapter\Client.cs" />
     <Compile Include="Structural\Adapter\ITarget.cs" />
+    <Compile Include="Structural\Bridge\MessageSender.cs" />
+    <Compile Include="Structural\Bridge\Message\Message.cs" />
+    <Compile Include="Structural\Bridge\Message\SystemMessage.cs" />
+    <Compile Include="Structural\Bridge\Message\UserMessage.cs" />
+    <Compile Include="Structural\Bridge\Sender\EmailSender.cs" />
+    <Compile Include="Structural\Bridge\Sender\FileSender.cs" />
+    <Compile Include="Structural\Bridge\Sender\IMessageSender.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral\" />
