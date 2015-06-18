@@ -87,6 +87,10 @@
     <Compile Include="Structural\Bridge\Sender\EmailSender.cs" />
     <Compile Include="Structural\Bridge\Sender\FileSender.cs" />
     <Compile Include="Structural\Bridge\Sender\IMessageSender.cs" />
+    <Compile Include="Structural\Composite\Component.cs" />
+    <Compile Include="Structural\Composite\Composite.cs" />
+    <Compile Include="Structural\Composite\Leaf.cs" />
+    <Compile Include="Structural\Composite\Tree.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral\" />
