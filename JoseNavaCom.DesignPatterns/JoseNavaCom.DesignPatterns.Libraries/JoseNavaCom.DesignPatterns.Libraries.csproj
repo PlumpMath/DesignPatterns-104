@@ -91,6 +91,15 @@
     <Compile Include="Structural\Composite\Composite.cs" />
     <Compile Include="Structural\Composite\Leaf.cs" />
     <Compile Include="Structural\Composite\Tree.cs" />
+    <Compile Include="Structural\Decorator\ArtificialScentDecorator.cs" />
+    <Compile Include="Structural\Decorator\BakeryComponent.cs" />
+    <Compile Include="Structural\Decorator\CakeBase.cs" />
+    <Compile Include="Structural\Decorator\CakeDecorator.cs" />
+    <Compile Include="Structural\Decorator\CherryDecorator.cs" />
+    <Compile Include="Structural\Decorator\CreamDecorator.cs" />
+    <Compile Include="Structural\Decorator\Decorator.cs" />
+    <Compile Include="Structural\Decorator\NameCardDecorator.cs" />
+    <Compile Include="Structural\Decorator\PastryBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral\" />
