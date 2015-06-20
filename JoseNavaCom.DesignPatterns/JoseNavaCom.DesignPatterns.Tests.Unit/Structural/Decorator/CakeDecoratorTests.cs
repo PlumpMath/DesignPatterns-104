@@ -12,6 +12,7 @@ namespace JoseNavaCom.DesignPatterns.Tests.Unit.Structural.Decorator
         {
             CakeDecorator cakeDecorator = new CakeDecorator();
             var totalPrice = cakeDecorator.GetPrice();
+            Assert.AreEqual<double>(210, totalPrice);
         }
     }
 }
