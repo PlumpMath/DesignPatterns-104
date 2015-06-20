@@ -63,6 +63,7 @@
     <Compile Include="Structural\Adapter\ClientTests.cs" />
     <Compile Include="Structural\Bridge\MessageSenderTests.cs" />
     <Compile Include="Structural\Decorator\CakeDecoratorTests.cs" />
+    <Compile Include="Structural\Facade\CarTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JoseNavaCom.DesignPatterns.Libraries\JoseNavaCom.DesignPatterns.Libraries.csproj">
