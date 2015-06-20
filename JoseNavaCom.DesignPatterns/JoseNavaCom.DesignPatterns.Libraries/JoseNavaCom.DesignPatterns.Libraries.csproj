@@ -100,6 +100,12 @@
     <Compile Include="Structural\Decorator\Decorator.cs" />
     <Compile Include="Structural\Decorator\NameCardDecorator.cs" />
     <Compile Include="Structural\Decorator\PastryBase.cs" />
+    <Compile Include="Structural\Facade\Car.cs" />
+    <Compile Include="Structural\Facade\CarAccessories.cs" />
+    <Compile Include="Structural\Facade\CarBody.cs" />
+    <Compile Include="Structural\Facade\CarEngine.cs" />
+    <Compile Include="Structural\Facade\CarFacade.cs" />
+    <Compile Include="Structural\Facade\CarModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral\" />
